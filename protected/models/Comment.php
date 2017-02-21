@@ -53,4 +53,8 @@ class Comment extends CActiveRecord
 		$model->save();
 		return $model;
 	}
+
+	public function testing() {
+		// testing the ssh key coupling
+	}
 }
